@@ -1,0 +1,35 @@
+/*
+* Author:  Heidi Cone
+* Created by: Heidi Cone (Search Advancement)
+* Copyright (c) 2015 Search Advancement
+* Date: 27 Dec, 2015
+* 
+*/
+
+/* This Media screen css called for All Appointment-Child Theme Pages-------------------------------------------------*/
+
+@media only screen and (min-width: 960px) and (max-width: 1200px) {
+
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+/*Menus*/
+/*.navbar .navbar-right { float: left !important; }*/
+.navbar-collapse.in { overflow: hidden; }
+.navbar-default .navbar-nav .open .dropdown-menu > li > a { color: #1b1b1b; }
+
+
+}	
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+/*About page*/
+.anna, .fox{width: 100%;}
+.container .row{margin-right: 0; margin-left: 0;}
+
+} 
+
+@media only screen and (min-width: 200px) and (max-width: 480px) {
+
+
+}

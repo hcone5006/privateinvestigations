@@ -1,0 +1,369 @@
+/*
+Theme Name: appointment-child
+Author: Heidi Cone
+Template: appointment
+Description: The child theme of Appointment... A responsive theme for all type of business that uses multiple nav menus, several sidebars etc etc . 
+ It has a pixel-perfect design that's great for any blogger who wants a new look for their site. The theme is built using twitter bootstrap.
+Tags: orange, white, full-width-template, threaded-comments, microformats,two-columns,  right-sidebar, responsive-layout, sticky-post, custom-background, custom-menu,translation-ready
+Version: 1.0
+
+*/
+
+/*Custom CSS*/
+body{font-family: "Open Sans", sans-serif !important;}
+p{font-family:  "Open Sans", sans-serif !important;}
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {font-family: "Open Sans", sans-serif !important; font-weight: 400 !important;}
+li{ font-family:"Open Sans", sans-serif !important;}
+/*Header*/
+.img-logo-responsive{width: 15%; min-width: 76px; margin-right: 10px;}
+.img-logo-responsive img{width: 100%;}
+.slide-text-bg1 h2{background-color: white;}
+/*.img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img{height: 500px; margin: 0 auto; width: 100%;}*/
+/*.carousel-inner > .item > img{max-width: none !important; width: 100%;}*/
+.top-contact-detail-section{background-color: #985286 !important;}
+.homepage-mycarousel{background: url(http://foxinvestigations.co.nz/wp-content/uploads/2015/05/slide2.png); background-size: cover; }
+
+/*ABout Page*/
+.fox{width: 47%; display: inline-block; vertical-align: top;}
+.anna{margin-right: 5%; width: 47%; display: inline-block;}
+/*.fox, .anna{margin-bottom: 5%;}*/
+.fox img{width: 240px;}
+
+/*Services Page*/
+.tabs{width: 100%;}
+.tabs h2{color: #006db5;}
+.surveillance{list-style: none; padding-left: 0;}
+.surveillance img{width: 30px; margin: 10px;}
+.services{width: 45%; display: inline-block; vertical-align: top;}
+.services:first-child{margin-right: 7%;}
+.service-area h3{color: #fff;}
+.service-area{padding: 0 0 30px;}
+.fox h2, .anna h2, .services h2, .testimonials h2{color: #006db5; margin-bottom: 20px;}
+.blog-lg-area-left p, .blog-lg-area-right p, .blog-lg-area-full p{margin: 0 0 10px 0;}
+.fourth{margin: 0 auto; display: block; float:none;}
+
+textarea{height: 169px; width: 100% !important;}
+
+.layout-control-group .btn_submit{background-color: #985286 !important;}
+.layout-control-group .btn_submit:hover{background-color: #89AAE6 !important;}
+
+/*Home Page*/
+.carousel{background-color: rgba(0,0,0,.6);}
+.carousel-inner > .active{height: 330px !important;}
+.Service-section{margin: 42px 0 0;}
+
+.welcome{display: inline-block;}
+
+.welcome2{/*display: inline-block; */vertical-align: top; padding:0;}
+.welcome2 img{width: 70px; margin-right: 15px;}
+.welcome2 h3{width: 64%; display: inline-block; margin-right: 15px;}
+.welcome2 ul{padding-left: 103px;}
+
+.section-heading-title{display: inline-block; text-align: left; vertical-align: top;}
+.section-heading-title h1{color: #006DB5; margin: 0 0 20px;}
+.section-heading-title p{margin: 0 0 10px 0; color: black;}
+
+/*.slide-btn-sm {background-color: #006DB5;box-shadow: 0 3px 0 0 #89AAE6;}*/
+.slide-text-bg1 h2{box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.7); font-size: 57px; line-height: 57px; padding: 15px; font-family: "Open Sans", serif !important; font-weight: 400; color: #6D326D;}
+.slide-text-bg2 span{box-shadow: 0 3px 0 0 #6D326D; background-color: #985286; font-size: 25px;}
+.slide-text-bg2{width: auto;}
+.slide-caption{width: auto; top: 70px; float: none; left: 0;}
+
+.callout-section p{padding: 0; text-align: left;}
+.callout-section .overlay{padding: 74px 0 0;}
+.callout-section {margin: 50px 0 0 0; background: url("http://foxinvestigations.co.nz/wp-content/uploads/2015/05/slide2.png") no-repeat fixed 0 0 / cover rgba(0, 0, 0, 0); margin-bottom: 50px 0 0;}
+.page-title-section{background: url("http://foxinvestigations.co.nz/wp-content/uploads/2015/05/slide2.png") no-repeat fixed 0 0 / cover  rgba(0, 0, 0, 0)}
+
+.top-contact-detail-section {display: none;}
+
+.service-icon i {color: #fff !important;}
+
+.callout-btn2 {background-color: #006DB5;box-shadow: 0 3px 0 0 #89AAE6;}
+
+a.hrtl-btn {background-color: #006DB5;box-shadow: 0 3px 0 0 #89AAE6;}
+a.works-btn {background-color: #006DB5;box-shadow: 0 3px 0 0 #89AAE6;}
+a.error-btn {background-color: #006DB5;box-shadow: 0 3px 0 0 #89AAE6;}
+.error-404 h1 {color: #006DB5;}
+.portfolio-caption:hover h4 a {color:#006DB5;}
+.portfolio-tabs li.active > a, .portfolio-tabs li > a:hover {color: #006DB5;}
+
+.project-scroll-btn li:hover {background: #006DB5;}
+
+.testmonial-area h4 {color: #006DB5;}
+
+/*Nav stuff*/
+/*.navbar-header{width: 59%; color: white;}*/
+.navbar-header h1{margin-top:0 !important; margin-bottom: 0 !important;font-family: "Open Sans", serif; font-weight: 400; vertical-align: middle; color: white;display: inline-block;}
+.navbar-default{border-color: transparent;}
+.navbar-default .navbar-nav > li > a{color: white;}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{border: none;}
+.menu-item li.active a, li.active a:hover{background-color: #883f88;}
+li.active a, li.active a:hover{background-color: #883f88;}
+
+#wprmenu_menu.wprmenu_levels ul li:hover{background-color: #883f88;}
+.navbar-default .navbar-toggle{display: none;}
+
+.blog-section-lg{margin:0;}
+.blog-sm-area h3 > a:focus {color: #006DB5;}
+.blog-btn-sm {background-color: #006DB5; box-shadow: 0 3px 0 0 #89aae6;}
+.blog-btn-lg {background-color: #006DB5;box-shadow: 0 3px 0 0 #89AAE6;}
+.blog-post-lg a:hover, .blog-tags-lg a:hover {color: #006DB5;}
+.blog-post-date-area .date {background-color: #006DB5;}
+.blog-post-sm a:hover, .blog-tags-sm a:hover {color: #006DB5;}
+.blog-lg-box img {border-bottom: 3px solid #006DB5;}
+.blog-lg-area-full h3 > a:hover { color: #006DB5;}
+.blog-blockquote blockquote {border-left: 3px solid #006DB5;}
+.blog-author span {color: #006DB5;}
+.blogdetail-btn a, .cont-btn a  {background-color: #006DB5;box-shadow: 0 3px 0 0 #89AAE6;}
+.blogdetail-btn a:hover, .cont-btn a:hover {background-color: #006DB5;}
+.blog-pagination a:hover, .blog-pagination a.active {background-color: #006DB5;border: 1px solid #006DB5;}
+.blog-pagination-square a:hover, .blog-pagination-square a.active {background-color: #006DB5;border: 1px solid #006DB5;}
+
+
+.clients-btn-lg {background-color: #006DB5;box-shadow: 0 3px 0 0 #89AAE6;
+}
+
+.contact{width: 47%; display: inline-block; margin-right: 2%; vertical-align: top;}
+.contact p{margin-bottom: 10px;}
+
+.footer-contact-icon i {color: #006DB5;}
+.footer-addr-icon {color: #006DB5;}
+.footer-blog-post:hover h3 a {color: #006DB5;}
+
+.footer-widget-tags a:hover {background-color: #006DB5; border: 1px solid #006DB5;}
+.footer-widget-column ul li a{color: white;}
+.footer-widget-column ul li a:hover {color: #006DB5;}
+.footer-widget-column{margin-bottom: 0;}
+
+.footer-copyright-section {background-color:#6d326d; /*border-bottom: 5px solid #006DB5;*/}
+.footer-copyright p{color: white;}
+.footer-copyright p a{color: white;}
+.footer-copyright p a:hover {color: #006DB5;}
+
+.footer-widget-section ul li{text-decoration: none;}
+.footer-widget-section h3{display: none;}
+.footer-widget-section  div#calendar_wrap table > thead > tr > th {color: #006DB5;}
+.footer-widget-column input[type=submit]{background-color: #006DB5; border: 1px solid #006DB5;}
+.footer-widget-column .textwidget a:hover{color:#006DB5;}
+
+.footer-section{background-color: #6d326d; margin: 0;}
+
+.page-breadcrumb > li.active a {color: #006DB5;}
+
+
+p.wp-caption-text a {color: #006DB5;}
+
+.comment-date a:hover {color: #006DB5;}
+
+.reply a {color: #006DB5;}
+.reply a:hover {color: #3685B5;}
+
+.sidebar-widget > .input-group > .input-group-addon {background-color: #006DB5;border: 1px solid #006DB5;}
+.sidebar-widget div#calendar_wrap table > thead > tr > th {color: #006DB5;}
+.sidebar-blog-post:hover h3 a { color: #006DB5;	}
+.sidebar-widget-tags a:hover { background-color: #006DB5;border: 1px solid #006DB5;}
+.sidebar-widget > .tagcloud a:hover{background-color: #006DB5 !important;}
+
+ul.post-content li:hover a {color: #006DB5;}
+
+.hc_scrollup {background-color: #006DB5;}
+
+.media-body th a:hover ,.media-body dd a:hover,.media-body p a:hover , .media-body li a:hover,.sidebar-widget a:hover,.blog-post-info-detail a:hover,.comment-respond a:hover{color: #006DB5;}
+
+.tagcloud a:hover {background-color: #006DB5;border: 1px solid #006DB5;}
+.tagcloud ul li a:hover {color: #006DB5;}
+
+.form-submit input{background-color: #006DB5;box-shadow: 0 3px 0 0 #89AAE6;}
+
+.page-breadcrumb .active{color:#006DB5;}
+.page-title a:hover {color: #006DB5 !important;}
+
+.media-body input[type=submit],.sidebar-widget input[type=submit]{background-color: #006DB5;border: 1px solid #006DB5;}
+
+#calendar_wrap a{color:#006DB5;}
+
+.orange-widget-column > .input-group > .input-group-addon {background-color: #006DB5; border: 1px solid #006DB5;}
+.orange-widget-column div#calendar_wrap table > thead > tr > th {color: #006DB5;}
+.orange-widget-column-tags a:hover {background-color: #006DB5; border: 1px solid #006DB5;}
+
+.callout-section .overlay {
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.6);
+}
+
+.page-title-section .overlay {
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.2);
+}
+
+
+/*Tabby Styling*/
+
+.tabcontent p{margin-bottom: 10px;}
+/*.responsive-tabs .responsive-tabs__heading{background-color: #ebf7ff;}*/
+.responsive-tabs .responsive-tabs__heading--active, .responsive-tabs .responsive-tabs__heading--active:hover {background: #6D326D !important;}
+.responsive-tabs .responsive-tabs__list__item--active, .responsive-tabs .responsive-tabs__list__item--active:hover{background: #985286; border-radius: 15px 15px 0 0; color: white;}
+@media (min-width: 3500px) {
+
+    .responsive-tabs .responsive-tabs__panel--closed-accordion-only {
+        display: block;
+    }
+}
+@media (max-width: 3500px) {
+
+    .responsive-tabs .responsive-tabs__list {
+        display: none;
+    }
+    
+    .responsive-tabs .responsive-tabs__heading {
+        display: block;
+        cursor: pointer;
+    }
+
+    .responsive-tabs-wrapper {      
+        border-top: 1px solid #ccc;
+    }
+        
+    .responsive-tabs .responsive-tabs__heading {
+        background: #fff;
+        border: 1px solid #ccc;
+        border-top: none;
+        color: #777;
+        font-size: 18px;
+        font-weight: normal;
+        text-transform: inherit;
+        margin: 0;
+        padding: 10px 0;
+        padding-left: 20px;
+        position: relative;
+    }
+
+    .responsive-tabs .responsive-tabs__heading .fa {
+        margin-right: 8px;
+        display:none;
+        }
+
+    .responsive-tabs .responsive-tabs__heading:after {
+        border-left: 6px solid transparent;
+        border-right: 6px solid transparent;
+        border-top: 6px solid #777;
+        content:"";
+        display: block;
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        height: 0; 
+        width: 0; 
+    }
+
+    .responsive-tabs .responsive-tabs__heading:hover {
+        background: #6D326D;
+        color: #fff;
+    }
+    
+    .responsive-tabs .responsive-tabs__heading:hover:after {    
+        border-top: 6px solid #777;
+    }
+
+    .responsive-tabs .responsive-tabs__heading--active,
+    .responsive-tabs .responsive-tabs__heading--active:hover {
+        background: #ccc;
+        color: #fff;
+    }
+
+    .responsive-tabs .responsive-tabs__heading--active:after,
+    .responsive-tabs .responsive-tabs__heading--active:hover:after {
+        border-bottom: 6px solid #fff;
+        border-top: 0;
+        top: 18px;
+    }
+
+    .responsive-tabs .responsive-tabs__panel {
+        background: #f1e0f1;
+        border: 1px solid #ccc;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        border-radius: 0;
+        border-top: none;
+        margin: 0;
+        padding: 20px 20px;
+    }
+}
+/* This Media screen css called for All Appointment-Child Theme Pages-------------------------------------------------*/
+
+@media only screen and (min-width: 1200px){
+    .welcome{width: 60%; margin-right: 2%;}
+    .welcome2{width: 34%;}
+}
+
+@media only screen and (min-width: 960px) and (max-width: 1200px) {
+/*Menus*/
+.navbar .navbar-right { float: right !important; }
+.welcome2{width: 44%;}
+.Service-section .welcome{width: 55%;}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+/*Menus*/
+/*.navbar .navbar-right { float: left !important; }*/
+.slide-caption{width: 80%;}
+.navbar-collapse.in { overflow: hidden; }
+.navbar-default .navbar-nav .open .dropdown-menu > li > a { color: #1b1b1b; }
+.navbar .navbar-right{float: right !important;}
+.welcome2{width: 48%;}
+.Service-section .welcome{width: 48%; margin-right: 1%;}
+}	
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+/*Header*/
+.slide-caption{width: 70%;}
+.active > div{display: block !important;}
+/*Menus*/
+.navbar-header{width: 100%;}
+.navbar-header h1{font-size: 4vw;}
+.navbar-brand { display: block; float: none; margin-right: 0; padding: 10px 15px; }
+.navbar-brand img { display: block; margin: 0 auto; text-align: center; }
+
+.navbar-collapse.in { overflow: hidden; }
+.navbar-nav { width: 100%; }
+.navbar-nav > li { border-right: 0px none; background-color: #ab6399;}
+.navbar-toggle {
+    color: #FFFFFF;
+    display: block;
+    float: right;
+    font-size: 12px;
+    font-weight: 700;
+    margin: 13px auto;
+    padding: 7px 15px;
+	letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+/*Landing Page*/
+.welcome2{width: 100%;}
+.Service-section .wecome{width: 100%; margin-right: 0;}
+/*About & Services Page*/
+.anna, .fox{width: 100%;}
+.container{margin: 0 auto;}
+.container .row{margin-right: 0; margin-left: 0;}
+/*Contact Page*/
+textarea{width: 100% !important;}
+} 
+
+@media only screen and (min-width: 200px) and (max-width: 480px) {
+/*About & Services Page*/
+.anna, .fox{width: 100%;}
+.container .row{margin-right: 0; margin-left: 0;}
+.contact{width: 100%;}
+
+#carousel-example-generic .active > div{display: block; width: 50%;}
+.carousel-inner > .active{height: 260px;}
+.slide-caption{top: 70px;}
+/*Menu*/
+.navbar-toggle{float:right;}
+.navbar-header{width: 100%;}
+.navbar-header h1{font-size: 4vw;}
+}
